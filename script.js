@@ -45,5 +45,5 @@ document.querySelector(".cta-button").addEventListener("click", function (e) {
   setTimeout(() => {
     clearInterval(quoteInterval);
     window.location.href = targetUrl;
-  }, 10000);
+  }, 0);
 });
