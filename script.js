@@ -32,18 +32,6 @@ function updateLoadingText() {
 
 document.querySelector(".cta-button").addEventListener("click", function (e) {
   e.preventDefault();
-  const content = document.querySelector(".content");
-  const loadingContent = document.querySelector(".loading-content");
-
-  content.classList.add("loading");
-  loadingContent.style.display = "block";
-
-  quoteInterval = setInterval(updateLoadingText, 3000);
-
   const targetUrl = this.href;
-
-  setTimeout(() => {
-    clearInterval(quoteInterval);
-    window.location.href = targetUrl;
-  }, 0);
+  window.location.href = targetUrl;
 });
