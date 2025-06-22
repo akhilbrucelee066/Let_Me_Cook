@@ -4,7 +4,7 @@
 - an AI powered ingredients based recipe generation website
 
 ### live-website:
--  https://let-me-cook-prjt01.vercel.app/
+-  https://akhilbrucelee066.github.io/Let_Me_Cook/
 
 ### Code-Base:
 -  https://github.com/akhilbrucelee066/LetMeCook-codebase/
